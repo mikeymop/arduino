@@ -27,10 +27,17 @@ sudo usermod -aG dialout $USER
 You can now try uploading a simple test sketch
 
 ```cpp
-digitalWrite(2, HIGH);
-delay(500);
-digitalWrite(2, LOW);
-delay(500);
+void setup() {
+  // Configures the built in LED as on output
+  pinMode(2, OUTPUT);
+}
+
+void loop() {
+    digitalWrite(2, HIGH);
+    delay(500);
+    digitalWrite(2, LOW);
+    delay(500);
+}
 ```
 
 Once this code is uploaded successfully you will see the blue 'AI' led begin flashing on the NodeMCU.
