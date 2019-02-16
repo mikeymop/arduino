@@ -24,7 +24,7 @@ You may see some errors when trying to upload a sketch, you probably will need t
 sudo usermod -aG dialout $USER
 ```
 
-You can now try uploading a simple testsketch
+You can now try uploading a simple test sketch
 
 ```cpp
 digitalWrite(2, HIGH);
