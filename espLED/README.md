@@ -47,6 +47,16 @@ Once this code is uploaded successfully you will see the blue 'AI' led begin fla
 The NodeMCU has two built-in LEDs that are used for various status messages.
 One LED is part of the ESP8266 WiFi module attached to the NodeMCU. This attached pin is mapped to `GPIO pin 2` internally on the devices board.
 
+Control with Potentiometer:
+The NodeMCU only has 3.3v pins so the pot values will have to be mapped relative to 3.3v.
+
+```cpp
+// get voltage from A0 hooked to pot
+float sensorValue = analogRead(A0);
+float outputVoltage = (sensorValue * 3.300)/1023;
+Serial.println(outputVoltage);
+```
+
 ### Notes
 
 Arduino [Constants](https://www.arduino.cc/reference/en/language/variables/constants/constants/)
