@@ -2,6 +2,14 @@
 
 This documents my notes on getting the Grove Studio Gas sensors working with the NodeMCU. The end goal is to beable to give an [AQI Reading](https://airnow.gov/index.cfm?action=aqibasics.aqi) using open hardware.
 
+We will be measuring the five major air pollutants regulated by the Clean Air Act:
+
+ * Ground-level Ozone
+ * Particulate matter
+ * Carbon Monoxide
+ * Sulfur Dioxide
+ * Nitrogen Dioxide
+
 ### Sensors:
 
 #### MQ2 Gas Sensor 
