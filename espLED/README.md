@@ -57,6 +57,39 @@ float outputVoltage = (sensorValue * 3.300)/1023;
 Serial.println(outputVoltage);
 ```
 
+Wiring the pot like so:
+```
+Pot:
+    +: -> node 3.3v
+    V: -> node a0
+    -: -> node gnd
+
+Sensorvalue:9
+0.03V
+Sensorvalue:29
+0.09V
+Sensorvalue:45
+0.15V
+Sensorvalue:116
+0.37V
+Sensorvalue:200
+0.65V
+Sensorvalue:289
+0.93V
+Sensorvalue:339
+1.09V
+Sensorvalue:496
+1.60V
+Sensorvalue:658
+2.12V
+Sensorvalue:762
+2.46V
+Sensorvalue:1013
+3.27V
+Sensorvalue:1024
+```
+
+
 ### Notes
 
 Arduino [Constants](https://www.arduino.cc/reference/en/language/variables/constants/constants/)
