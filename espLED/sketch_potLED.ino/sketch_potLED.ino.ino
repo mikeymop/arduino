@@ -5,13 +5,6 @@ void blinkBlue(int onoff) {
   if(onoff == 0)
     digitalWrite(pin, LOW);
 }
-void blinkRed(int onoff) {
-  int pin = D0;
-  if(onoff == 1)
-    digitalWrite(pin, HIGH);
-  if(onoff == 0)
-    digitalWrite(pin, LOW);
-}
 
 void setup() {
   // put your setup code here, to run once:
@@ -23,10 +16,18 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   blinkBlue(1);
-  blinkRed(0);
+  int sensorValue = analogRead(A0);
+  float outputVolt = (sensorValue * 3.300)/1023;
+  Serial.print("Sensorvalue:");
+  Serial.println(sensorValue);
+  Serial.print(outputVolt);
+  Serial.println("V");
+
+  analogWrite(redLED, sensorValue);
+
   delay(500);
   blinkBlue(0);
-  blinkRed(1);
+
   delay(100);
 
 }
