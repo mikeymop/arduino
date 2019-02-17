@@ -10,7 +10,9 @@ Serial.println(outputVoltage);
 ```
 We will also have to set the serial baud rate to match that of the serial connection on the board:
 ```cpp
-Serial.begin(115200);
+void setup() {
+    Serial.begin(115200);
+}
 ```
 We can now read the sensor data from the nodemcu's serial console using by wiring the pot like so:
 ```
