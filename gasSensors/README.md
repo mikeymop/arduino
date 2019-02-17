@@ -5,7 +5,7 @@ This documents my notes on getting the Grove Studio Gas sensors working with the
 ### Sensors:
 
 #### MQ2 Gas Sensor 
- * [TLDR] (https://lastminuteengineers.com/mq2-gas-senser-arduino-tutorial/)
+ * [TLDR](https://lastminuteengineers.com/mq2-gas-senser-arduino-tutorial/)
  * [Data Sheet](https://lastminuteengineers.com/datasheets/MQ2-Gas-Sensor-Datasheet.pdf)
  * [More Info](http://wiki.seeedstudio.com/Grove-Gas_Sensor-MQ2/)
 
