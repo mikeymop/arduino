@@ -28,4 +28,4 @@ We will be measuring the five major air pollutants regulated by the Clean Air Ac
 
 ### Reading
 
-* [Aerotron Research](file:///home/mikey/Downloads/Aerotron.pdf)
+* [Aerotron Research](https://cdn.hackaday.io/files/12385529879840/Aerotron.pdf)
