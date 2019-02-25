@@ -26,4 +26,6 @@ We will be measuring the five major air pollutants regulated by the Clean Air Ac
 
 * One issue I know I will hit is that these are rated for 5v input where the NodeMCU only supplies 3.3v pins. I will have to use a boost converter or adjust the threshold values myself for the gas concentrations.
 
+### Reading
 
+* [Aerotron Research](file:///home/mikey/Downloads/Aerotron.pdf)
