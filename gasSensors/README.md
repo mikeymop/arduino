@@ -24,7 +24,7 @@ We will be measuring the five major air pollutants regulated by the Clean Air Ac
 
 ### Additional Parts
 
-* [Step-Up Converter](https://www.diykits.eu/control/product)
+* [Step-Up Converter](https://www.diykits.eu/products/p_10513)
 
 ### Issues
 
@@ -36,3 +36,4 @@ We will be measuring the five major air pollutants regulated by the Clean Air Ac
 * [Aerotron Research](https://cdn.hackaday.io/files/12385529879840/Aerotron.pdf)
 * [Power Sources](https://www.open-electronics.org/the-power-of-arduino-this-unknown/)
 * [Using Solar Panels](https://www.sparkfun.com/news/1131)
+* [Battery Bank Ideas](https://www.voltaicsystems.com/blog/three-ways-to-power-an-arduino-off-grid/)
