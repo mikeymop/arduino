@@ -26,6 +26,7 @@ We will be measuring the five major air pollutants regulated by the Clean Air Ac
 
 * [Step-Up Converter](https://www.diykits.eu/products/p_10513)
 * [DFrobot Power Shield](http://www.diykits.eu/products/p_10775)
+    * [More info](https://www.dfrobot.com/wiki/index.php/Power_Shield_(SKU:DFR0105))
 
 
 ### Issues
